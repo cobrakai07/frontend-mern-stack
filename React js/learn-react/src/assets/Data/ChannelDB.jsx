@@ -1,40 +1,40 @@
-let Persons=[
+let channelDB=[
     {
-        id:1,
+        id:101,
         name:"Deepak",
-        age:23,
+        views:23,
         verified:true
     },
     {
-        id:2,
+        id:127,
         name:"Vir",
-        age:64,
+        views:64,
         verified:false
     },
     {
-        id:3,
+        id:313,
         name: "Kabir",
-        age: 35,
+        views: 35,
         verified:true
     },
     {
-        id:4,
+        id:403,
         name:"Amar",
-        age: 44,
+        views: 44,
         verified:true
     },
     {
-        id:5,
+        id:504,
         name:"John",
-        age: 14,
+        views: 14,
         verified:false
     },
     {
-        id:6,
+        id:413,
         name: "Cobra",
-        age: 88,
+        views: 88,
         verified:false
     }
 ];
 
-export default Persons;
+export default channelDB;

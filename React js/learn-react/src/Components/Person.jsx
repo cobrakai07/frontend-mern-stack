@@ -1,19 +1,19 @@
 import React from 'react';
 // import Persons from '../assets/Data/PersonDB';
 
-function Person({name,age,id}) {
-    console.log(id);
+function Person({name,age,id,verified}) {
   return (
     <>
     <span style={{display: 'inline-block', padding:'22px'}}>
         <img src={`https://picsum.photos/id/${id}/200/300`} alt="randomImage" />
-        <div>Name: {name} || Age: {age}</div>
+        <div> Name: {name} || Age: {age} {verified ? "✔" : null}</div>
     </span>
     </>
-  )
-}
+  )}
+
 
 export default Person;
+
 
 //This is a default template for every data which will be exported into
 //PersonComponent from PersonDB
